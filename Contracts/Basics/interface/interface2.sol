@@ -2,7 +2,9 @@
 pragma solidity ^0.8.13;
 
 /** 接口暂时还不明白如何使用。等以后找到更多例子再来补充。 
- *
+ *  已补充：
+ *  时间：2022-11-03 12:27
+ *  具体查看合约：TestInterface.sol, TestInterface1.sol
  */
 
 interface UniswapV2Factory {
