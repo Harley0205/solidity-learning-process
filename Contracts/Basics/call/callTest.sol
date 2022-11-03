@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 contract Receiver {
-
+ 
     event Received(address caller, uint amount, string message);
     
     fallback() external payable {

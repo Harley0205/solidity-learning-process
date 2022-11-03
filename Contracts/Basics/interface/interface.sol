@@ -9,7 +9,7 @@ contract testInterface {
      * 4. 不能定义构造器 constructor
      * 5. 不能定义状态变量
      */
-
+ 
      uint public count;
      function increment() external {
          count +=1;

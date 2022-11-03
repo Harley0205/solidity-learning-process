@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 contract visibility {
-    // 可见性
+    // 可见性 
     /** 函数被定义为：
      * public   : 表示 任何合约和账户都能调用
      * private  : 表示 只能在定义函数的合约内部调用
@@ -41,7 +41,7 @@ contract visibility {
     }
 
     function testExternalFunc() public pure returns(string memory){
-        // returns externalFunc();  // 报错
+        // returns externalFunc();  //  报错
         return "external function can only be called by other contracts and accounts" ;
     }
 

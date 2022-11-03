@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 contract Fallback {
     /** 以下任何一种情况都会执行
      * 1. 调用不存在的函数
-     * 2. 直接给合约发送Ether，但是没有receive()函数或者msg.data不为空
+     * 2. 直接给合约发送Ether, 但是没有receive()函数或者msg.data不为空
      *fallback has a 2300 gas limit when called by transfer or send.
      *
      * Question: msg.data是怎么发送和接收的 ？？？？？？？？？？？
